@@ -1,0 +1,92 @@
+.hidden {
+  display: none;
+  /* visibility:hidden; */
+}
+
+html,
+body {
+  margin: 0; /* 기본 마진 제거 */
+  height: 100%; /* 전체 높이를 브라우저 창에 맞춤 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* 가로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+}
+
+.child {
+  display: flex;
+  flex-direction: column; /* 자식 요소들을 세로로 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+}
+
+.child h2 {
+  margin: 0; /* h1 태그의 기본 마진 제거 */
+}
+
+.child h3,
+h2 {
+  color: rgb(66, 54, 54);
+}
+
+#login-form {
+  margin: 10px;
+}
+
+p#clock {
+  font-size: 70px;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  text-shadow: 1px 1px 0 rgb(65, 59, 59);
+}
+
+h2#greeting {
+  color: #ffffff;
+  margin: 10px;
+  text-shadow: 1px 1px 0 rgb(65, 59, 59);
+}
+
+#quote span {
+  color: #ffffff;
+}
+
+#weather span {
+  color: #ffffff;
+}
+
+#quote {
+  margin: 20px;
+  font-size: 15px;
+}
+
+#todo-list {
+  display: flex;
+  color: #ffffff;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#weather {
+  color: #c4a8a8;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+#todo-list button {
+  border: 0;
+  width: 16px;
+  height: 20px;
+  border-radius: 10px;
+  font-size: 3px;
+}
+
+#todo-list span {
+  margin-right: 10px;
+}
